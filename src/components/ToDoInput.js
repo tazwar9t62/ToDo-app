@@ -1,5 +1,5 @@
 import React from 'react';
-import { FormControl, InputGroup } from 'react-bootstrap';
+import { Button, FormControl, InputGroup } from 'react-bootstrap';
 
 const ToDoInput = () => {
     return (
@@ -8,7 +8,7 @@ const ToDoInput = () => {
     
     <FormControl aria-label="Large" aria-describedby="inputGroup-sizing-sm" />
     <InputGroup.Prepend>
-      <InputGroup.Text id="inputGroup-sizing-lg">Add to list</InputGroup.Text>
+    <Button variant="outline-primary" className="ml-2">Add to list</Button>
     </InputGroup.Prepend>
   </InputGroup>
         </div>

@@ -12,7 +12,7 @@ const ToDoItem = ({ToDo}) => {
             <div  className="row mt-3 justify-content-between align-items-center">
                 <div className="row">
                 <div className="mx-3">
-                    <h5>{id}.</h5>
+                    <h5>{id.length > 1 ? id[2]: id}.</h5>
                     </div>
                 <div>
                     <h5>{name}</h5>
